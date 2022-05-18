@@ -1,0 +1,240 @@
+
+.above_part{
+  max-width:80%;
+  margin:auto;
+  font-family: 'Rubik';
+  font-size: 16px;
+  color:black;
+  background-color: #FFFFFF;
+}
+
+.all_headings{
+    margin-left: 25%;
+    max-width:42%;
+}
+   
+#header{
+    margin-bottom: 100px;
+    overflow: auto;
+}
+
+.logo{
+    float: left;
+    height: 36.23px;
+    width: 111px;
+}
+.signupbtn{
+    font-size: 16px;
+    border: 1px solid #F53855;
+    color: #F53838;
+    border-radius: 50px;
+    float: right; 
+    background-color: #FFFFFF;
+    padding: 13px 45px;
+}
+    .signupbtn:hover{
+        background-color: #F53838;
+        color: #FFFFFF;
+    }
+
+.signinbtn{
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    float: right; 
+    background-color: #FFFFFF;
+    padding: 13px 45px;
+}
+
+.navbuttons{
+    float: right;
+    font-size: 16px;
+    color: #4F5665;
+    margin : 15px 40px 40px 40px;
+    text-decoration: none;
+}
+
+.container{
+    padding:20px;
+    margin:auto;
+    width:100%;
+    overflow-x: hidden;
+}
+
+.templ{
+    max-width:80%;
+    margin:auto;
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.ratingsstyle{
+    float: left;
+    width:33%;
+    border-right: 2px solid #EEEFF2; 
+    margin-right: 70px;
+}
+
+.features2contlist{
+    list-style-image: url('img/Vector1.png');
+    margin-top: 15px;
+}
+
+.features3contlist{
+    list-style-image: url('img/Vector2.png');
+    margin-top: 20px;
+}
+
+.thumbnailul{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.thumbnail{
+    display: inline-block;
+    background-color: #fff;
+    margin: 4%;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding:0.2%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    float:left;
+    max-width: 100%;
+   }
+   .thumbnail:hover{
+        border-color: #F53838;
+   }
+   .thumbnail:hover .selectbtn{
+             background-color: #F53838;
+            color: #FFFFFF;
+    }
+    .thumbnail:hover .selectbtn #belowbut2{
+            position: absolute;
+            width: 8%;
+            height: 10%;
+            background: rgba(245, 56, 56, 0.35);
+            filter: blur(54px);
+            border-radius: 60px;
+    }
+.selectbtn{
+    font-size: 16px;
+    border: 2px solid #F53855;
+    color: #F53838;
+    border-radius: 50px; 
+    background-color: #FFFFFF;
+    padding: 13px 45px;
+}
+   
+#bt1{
+    border: none;
+    background: #F53838;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 16px 40px;
+}
+
+#bt2{
+    float: right;
+    border:none;
+    background: #F53838;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 4px -4px;
+    padding: 16px 40px;
+    transform: translateY(90%);
+}
+
+.footerlist{
+    margin-bottom: 10%;
+    color: #4F5665;
+    font-size: 16px;
+}
+.footerheadlist{
+    margin-bottom: 20%;
+    color:#0B132A;
+    font-size: 18px;
+}
+
+.caroblock{
+    display: inline-block;
+    background-color: #ffffff;
+    margin-right: 1%;
+    margin-bottom: 8%;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding:1%;
+    padding-bottom: 1%;
+    max-width: 100%;
+   }
+   .caroblock:hover{
+        border-color: #F53838;
+   }
+   
+#car1{
+     float:left;
+     width:15%; 
+     margin-top: 8%;
+}
+#car2{
+       float:left;
+       width:65%;
+}
+#car3{
+    float:left; 
+    width:20%;
+    margin-top: 8%;
+}
+#namecont{
+    color:#4F5665; 
+    font-size: 12px; 
+    margin-top: -10%;
+}
+
+
+.carbutton{
+    float:left;
+    font-size: 20px;
+    width:70px;
+    height:70px;;
+    margin-top: 80px;
+    background-color: white;
+    border: 2px solid #F53838;
+    border-radius: 100px;
+    color: #F53838
+}
+.carbutton:hover{
+    background-color: #F53838;
+    color: #FFFFFF;
+}
+
+#belowbut1{
+    position: absolute;
+    width: 211.83px;
+    height: 60px;
+    left: 169.09px;
+    top: 502.06px;
+    background: rgba(245, 56, 56, 0.35);
+    filter: blur(54px);
+    border-radius: 10px;
+}
+#belowbut3{
+    position: absolute;
+    width: 20%;
+    height:15%;
+    left: 80%;
+    background: rgba(245, 56, 56, 0.35);
+    filter: blur(54px);
+    border-radius: 10px;
+    transform: translateY(100px);
+}
