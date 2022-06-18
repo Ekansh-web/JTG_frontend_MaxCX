@@ -1,8 +1,13 @@
+
 <!DOCTYPE html>
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+
+All the libraries are imported from Internet so the device 
+should have the Internet connection and 
+these libraries are used for the implementation of carousel 
+and the font style.
+carousel can work with the help of keyboard
+
 -->
 
 <html>
@@ -10,27 +15,38 @@ and open the template in the editor.
          <link rel="icon" type="image/icon-type" href="img/Logo.png">
         <title>MaxCX | HOME</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        
+    <!-- for font -->  
         <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    
+    <!-- for carousel -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
     </head>
-    <body class="container">
+    
+    
+    <body class="container1">
         
         <div class="above_part" >
             
  <!-- 1     Whole Navigation-->       
           <div id ="header">
-              <a href="#" class="logo"><img style="width: 90%; height: 90%" src="img/Logo.png" alt="MaxCX"></a>
+              <a href="#" class="logo"><img style="width: 100%; height: 100%" src="img/Logo.png" alt="MaxCX"></a>
                 <nav>
                     
-                    <button class="signupbtn"><b>Sign Up</b></button>
+                    <button class="signupbtn"  style="margin-right: 3%"><b>Sign Up</b></button>
                     <button class="signinbtn"><b>Sign In</b></button>
                     
-                    <a class="navbuttons" href="#help">Help</a>
+                    <a class="navbuttons"  style="margin-right: 5%" href="#help">Help</a>
                     <a class="navbuttons" href="#testimonials">Testimonials</a>
                     <a class="navbuttons" href="#pricing">Pricing</a>
                     <a class="navbuttons" href="#features">Features</a>
                     <a class="navbuttons" href="#about">About</a>
+                    
                 </nav>
           </div>
  
@@ -44,44 +60,49 @@ and open the template in the editor.
             <button id="bt1"><span id="belowbut1"></span>Get Started</button>
         </div>
 
-<!-- 3     Our Social Supports-->       
-        <div style="overflow: auto; margin-top: 103px; ">
+<!-- 3     Our Social Supports--> 
+    
+    <div class="ssmain">
+            
             <div class="ratingsstyle">
-                <div style="float:left; width:20%">
-                <img style="height: 55px; width: 55px" src="img/user.png" alt="user"/>
+                <div class="ssimgdiv">
+                    <img class="ssimg" src="img/user.png" alt="user"/>
                 </div>
-                <div style="float:left; width:20%">
-                <p style="color: #0B132A; font-size: 25px;"><b>90K+</b></p>
-                <p style="color: #4F5665; font-size: 20px;">Satisfied Customers</p>
+                <div class="ssdiv2">
+                    <p class="ssp1"><b>90K+</b></p>
+                    <p class="ssp2">Satisfied Customers</p>
                 </div>
             </div>
-            <div class="ratingsstyle">
-                
-                <div style="float:left; width:20%">
-                <img style="float: left; height: 55px; width: 55px" src="img/location.png" alt="user"/>
+            
+            <div class="ratingsstyle">    
+                <div class="ssimgdiv">
+                    <img style="float: left;" class="ssimg" src="img/location.png" alt="user"/>
                 </div>
-                <div style="float:left; width:20%">
-                <p style="color: #0B132A; font-size: 25px;"><b>100K+</b></p>
-                <p style="color: #4F5665; font-size: 20px;">Blooming Companies</p>
+                <div class="ssdiv2">
+                    <p class="ssp1"><b>100K+</b></p>
+                    <p class="ssp2">Blooming Companies</p>
                 </div>
             </div>
+            
             <div style="float: left; width:20%;">
                 <div style="float:left; width:30%">
-                <img style="float: left; height: 55px; width: 55px" src="img/Server.png" alt="user"/>
+                    <img style="float: left" class="ssimg" src="img/Server.png" alt="user"/>
                 </div>
-                <div style="float:left; width:20%">
-                <p style="color: #0B132A; font-size: 25px;"><b>500K+</b></p>
-                <p style="color: #4F5665; font-size: 20px;">Support Specialists</p>
+                <div class="ssdiv2">
+                    <p class="ssp1"><b>500K+</b></p>
+                    <p class="ssp2">Support Specialists</p>
                 </div>
             </div>
+            
         </div>
+        <span id="anotback"></span>
 
 <!-- 4 Features 2--> 
-        <div style="overflow: auto; margin-top: 95px; color:#4F5665; font-size:16px;">
-            <div style="float: left; width:50%">
+        <div style="overflow: auto; margin-top: 32%; color:#4F5665; font-size:16px;">
+            <div style="float: left; width:50%; margin-left: 5%;margin-top: 3%;">
             <img style="float: left; width: 80%; height:80%;" src="img/Illustration_2.png" alt="illus2"/>
             </div>
-            <div style="float: left; width:30%">
+            <div style="float: left; width:30%; margin-left: 5%; margin-top: 4%">
                 <h2 style="font-size: 35px; color: #0B132A">We Provide Many Features You Can Use</h2>
             <p>You can explore the features that we provide with fun and have
             their own functions each feature</p>
@@ -96,9 +117,10 @@ and open the template in the editor.
 
 <!-- 5   Thumbnails    --> 
           <div style="overflow: auto;"> 
-              <center class="all_headings"><h2>Choose Your Plan</h2>
+              <center style="margin-top: 17%" class="all_headings"><h2>Choose Your Plan</h2>
               <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p></center>
-                <div class="thumbnail">
+              <div class="thumbnail">
+                <div class="thumbnail1">
                     <center><img style="width: 40%;height: 40%" src="img/Free.png" alt="free">
                     <h4 style="color: #0B132A;">Free Plan</h4></center>
               
@@ -114,8 +136,8 @@ and open the template in the editor.
                     </center>
                 </div>
         
-                <div class="thumbnail">
-                    <center><img style="width: 40%;height: 40%"  src="img/Standard.png" alt="Bruce Wayne">
+                <div class="thumbnail1">
+                    <center><img style="width: 40%;height: 40%"  src="img/Standard.png" alt="standard">
                         <h4 style="color: #0B132A;">Standard Plan</h4></center>
                         <ul class="thumbnailul">
                             <li class="features3contlist">10k Inbound leads/pm</li>
@@ -129,8 +151,8 @@ and open the template in the editor.
                         <span id="belowbut2"></span>Select</button></center>
                 </div>
         
-                <div class="thumbnail">
-                    <center><img style="width: 40%;height: 40%"  src="img/Premium.png" alt="Bruce Wayne">
+                <div class="thumbnail1">
+                    <center><img style="width: 40%;height: 40%"  src="img/Premium.png" alt="premium">
                         <h4  style="color: #0B132A;">Premium Plan</h4></center>
                         <ul class="thumbnailul">
                             <li class="features3contlist">Unlimited Inbound leads</li>
@@ -144,13 +166,15 @@ and open the template in the editor.
                         <button class="selectbtn"><span id="belowbut2"></span>Select
                         </button></center>
                 </div>
+              </div>
          </div>
+
 
 <!-- 6    Globe Map of World -->
         <div>
-            <center class="all_headings"><h2>Huge Global Network of Specialized Workforce</h2>
+            <center style="margin-top: 12%" class="all_headings"><h2>Huge Global Network of Specialized Workforce</h2>
                 <p>See <b>MaxCX</b> everywhere to make it easier for you for your customers around the globe.</p></center>
-            <img style="width: 100%;height:100%" src="img/HugeGlobal.png" alt="globe"/>
+            <img style="width: 100%;height:100%; margin-top: 8%" src="img/HugeGlobal.png" alt="globe"/>
             <img style="width: 100%; height: 100%" src="img/Sponsored.png" alt="sponsored"/>
         </div>
         </div>
@@ -158,25 +182,31 @@ and open the template in the editor.
 <!-- 7   Carausel Code-->
         <div style="overflow:auto">
             <div class="above_part">
-            <center class="all_headings"><h2>Trusted by Thousands of Happy Customer</h2>
+            <center style="margin-top: 5%" class="all_headings"><h2>Trusted by Thousands of Happy Customer</h2>
                 <p>These are the stories of our customers who have joined us with great
                 pleasure when using this crazy feature.</p></center>
             <br><br>
             </div>
-          <button class="carbutton" id="carouselleft">&#10094;</button>
-          <div class="above_part" id="mycarousel">
-            <div class="caroblock first" style="float:left; width:30%;">
+          <button class='carbutton leftbt' style="margin-left: 3%"><!--&#10094;-->&#8592;</button>
+          
+          <div class="above_part owl-carousel owl-theme" style="float: left">
+           
+            <div class="caroblock item" style="float:left;">
                 <div style="overflow: auto">
                 <div id="car1">
-                    <img src="img/Ellipse 175.png" alt="person1">
+                    <img class="carimg" src="img/Ellipse 175.png" alt="person1">
                 </div>
                 <div id="car2">
-                    <h5 style="font-size: 16px; color: #0B132A">Viezh Robert</h5>
+                    <h5 class="carheadd">Viezh Robert</h5>
                     <p id="namecont">Warsaw, Poland</p>
                 </div>
                 <div id="car3">
-                    <p style="float: left">4.5
-                        <img src="img/star.png" alt="star"></p>
+                    <div style="float: left">
+                        <p>4.5</p>
+                    </div>
+                    <div  style="float: left; margin-left: 10%">
+                        <p> <img src="img/star.png" alt="star"></p>
+                    </div>
                 </div>
                 </div>
                 <p>"Wow... I am very happy to use this MaxCX service,
@@ -184,63 +214,98 @@ and open the template in the editor.
                  have been no problems. MaxCX always the best."</p>
             </div>
             
-            <div class="caroblock second" style="float:left; width:30%">
+            <div class="caroblock item" style="float:left; padding-bottom: 5%">
                 <div style="overflow:auto">
                 <div id="car1">
-                    <img src="img/Ellipse 175 (1).png" alt="person1">
+                    <img class="carimg" src="img/Ellipse 175 (1).png" alt="person1">
                 </div>
                 <div id="car2">
-                    <h5 style="font-size: 16px; color: #0B132A">Yessica Christy</h5>
+                    <h5 class="carheadd">Yessica Christy</h5>
                     <p id="namecont">Shanxi, China</p>
                 </div>
                 <div id="car3">
-                    <p style="float: left">4.5
-                        <img src="img/star.png" alt="star"></p>
+                    <div style="float: left">
+                        <p>4.5</p>
+                    </div>
+                    <div  style="float: left; margin-left: 10%">
+                        <p> <img src="img/star.png" alt="star"></p>
+                    </div>
                 </div>
                 </div>
                 <p>"I like it because I've my userbase around the globe and MaxCX just
                     makes it a lot easier for me removing all the inter-continent barriers."</p>
             </div>
             
-            <div class="caroblock third" style="float:left; width:30%">
+            <div class="caroblock item" style="float:left; padding-bottom: 5%">
                 <div style="overflow:auto">
                 <div id="car1">
-                    <img style="width:45px; height:44px;" src="img/Ellipse 175 (2).png" alt="person1">
+                    <img class="carimg" src="img/Ellipse 175 (2).png" alt="person1">
                 </div>
                 <div id="car2">
-                    <h5 style="font-size: 16px; color: #0B132A">Kim Young Jou</h5>
+                    <h5 class="carheadd">Kim Young Jou</h5>
                     <p id="namecont">Seoul, South Korea</p>
                 </div>
                 <div id="car3">
-                    <p style="float: left">4.5
-                        <img src="img/star.png" alt="star"></p>
+                    <div style="float: left">
+                        <p>4.5</p>
+                    </div>
+                    <div  style="float: left; margin-left: 10%">
+                        <p> <img src="img/star.png" alt="star"></p>
+                    </div>
                 </div>
                 </div>
                 <p>"This is very unusual for my business that currently requires
                     a partner that keeps my data at the highest possible security."</p>
+           
             </div>
+              
+              <div class="caroblock item" style="float:left; padding-bottom: 5%">
+                <div style="overflow:auto">
+                <div id="car1">
+                    <img class="carimg" src="img/daco.png" alt="person1">
+                </div>
+                <div id="car2">
+                    <h5 class="carheadd">Pratham Pandey</h5>
+                    <p id="namecont">Lucknow, India</p>
+                </div>
+                <div id="car3">
+                    <div style="float: left">
+                        <p>4.5</p>
+                    </div>
+                    <div  style="float: left; margin-left: 10%">
+                        <p> <img src="img/star.png" alt="star"></p>
+                    </div>
+                </div>
+                </div>
+                <p>"MaxCX always the best. This is very unusual for my business that currently requires
+                    a partner that keeps my data at the highest possible security."</p>
+           
             </div>
-            <button class="carbutton" id="carouselright">&#10095;</button>
+          </div>
+            <button class='carbutton rightbt'><!--&#10095;-->&#8594;</button>
            
         </div>
     <div class="above_part">
-<!-- 8    Subscibe area --> 
+        
+<!-- 8    Subscribe area --> 
         <div class='templ'>
-            <div style="float:left"> 
+            <div style="float:left; margin-left: 5%"> 
              <h2> Subscribe Now & get<br> Special Features!</h2>
                 <p>Let's subscribe with us and find the fun.</p>
             </div>
                <input type="submit" value="Subscribe Now" id="bt2"><span id="belowbut3"></span>
         </div>
+
     </div>
 
         
         
  <!-- 9   footer -->
-      <footer style="background-color: #F8F8F8; overflow: auto; margin-top: 10%; padding-top:100px; padding-bottom: 100px;">
+      <footer style="background-color: #F8F8F8; overflow: auto; margin-top: 19%; padding-top:100px; padding-bottom: 100px;">
           
           <div class="above_part" style="background-color: #F8F8F8;">
-             <div style="float:left; width:40%">
+              <div style="margin-top: 7%">
+             <div style="float:left; width:40%;">
                 <img style="width: 30%; height: 12%" src="img/Logo.png" alt="logo"/>
                 <p style="color: #4F5665; font-size: 16px;"><b>MaxCX</b> is a private virtual network that has<br> 
                     unique features and has high security.</p>
@@ -283,24 +348,37 @@ and open the template in the editor.
                     <li class="footerlist">Become Partner</li>
                  </ul>
              </div>
+           </div>
         </div>
       </footer>
  
- <div style="background-color: #F8F8F8"></div>
- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> 
  
  <script>
-        $(document).ready(function(){
-            $("#carouselleft").click(function(){
-                    var x = $('.first');
-               
-                    x.css('float','right');
-                });
-            $("#carouselright").click(function(){
-                               
-                });
-        });
- </script>     
+     
+     //jquery for carousel with the help of external library
+     
+     $(document).ready(function(){
+         
+         $('.owl-carousel').owlCarousel({
+             items:3,
+            loop:true,
+            dots:false,
+        })
+        var owl = $('.owl-carousel');
+             owl.owlCarousel();
+             $('.leftbt').click(function(){
+                 owl.trigger('next.owl.carousel');
+             })
+             $('.rightbt').click(function(){
+                 owl.trigger('prev.owl.carousel');
+             })
+     // to use keyboard side buttons for sliding
+     $(document).keydown(function(e){
+         if(e.keyCode == 37){owl.trigger('next.owl.carousel');}
+         else if(e.keyCode == 39){owl.trigger('prev.owl.carousel');}
+     })
+        })
+     </script>
  
     </body>
 </html>
