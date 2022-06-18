@@ -1,0 +1,312 @@
+
+.above_part{
+  max-width:80%;
+  margin:auto;
+  font-family: 'Rubik';
+  font-size: 16px;
+  color:black;
+  background-color: #FFFFFF;
+}
+
+.all_headings{
+    margin-left: 27%;
+    max-width:42%;
+}
+   
+#header{
+    margin-bottom: 8%;
+    overflow: auto;
+}
+
+.logo{
+    float: left;
+    height: 9%;
+    width: 9%;
+}
+.signupbtn{
+    font-size: 16px;
+    border: 1px solid #F53855;
+    color: #F53838;
+    border-radius: 50px;
+    float: right; 
+    background-color: #FFFFFF;
+    padding: 1% 4%;
+}
+    .signupbtn:hover{
+        background-color: #F53838;
+        color: #FFFFFF;
+    }
+
+.signinbtn{
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    float: right; 
+    background-color: #FFFFFF;
+    padding: 1% 4%;
+}
+
+.navbuttons{
+    float: right;
+    font-size: 16px;
+    color: #4F5665;
+    margin : 1% 1.5% 1.5% 1.5%;
+    text-decoration: none;
+}
+
+.container1{
+    padding:20px;
+    margin:auto;
+    width:100%;
+    overflow-x: hidden;
+}
+
+.templ{
+    max-width:80%;
+    margin:auto;
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 12%
+}
+
+h2{
+    font-size: 35px;
+}
+
+.ssmain{
+    position: absolute;
+    overflow: auto;
+    margin-top: 12%;
+    background: #fff;
+    z-index: 1;
+    max-width: 80%;
+    width:100%;
+    border-radius: 10px;
+}
+
+#anotback{
+    position: absolute;
+    width: 100%;
+    margin-top: 21%;
+    height: 20%;
+
+    background: #0D1025;
+    opacity: 0.06;
+    filter: blur(114px);
+    border-radius: 10px;
+}
+
+.ssimgdiv{
+    float:left;
+    width:20%;
+}
+
+.ssimg{
+ height: 55px; width: 55px;   
+}
+
+.ssp1{
+    color: #0B132A; font-size: 25px;
+}
+.ssp2{
+    color: #4F5665; font-size: 20px;
+}
+
+.ssdiv2{
+    float:left; width:20%;
+}
+
+.ratingsstyle{
+    float: left;
+    width:33%;
+    border-right: 2px solid #EEEFF2; 
+    margin-right: 5%;
+}
+
+.features2contlist{
+    list-style-image: url('img/Vector1.png');
+    margin-top: 15px;
+}
+
+.features3contlist{
+    list-style-image: url('img/Vector2.png');
+    margin-top: 20px;
+}
+
+.thumbnailul{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+
+
+.thumbnail1{
+    display: inline-block;
+    background-color: #fff;
+    margin-top:  4%;
+    margin-bottom:  4%;
+    margin-left:  2%;
+    margin-right:  2%;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding:2%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    float:left;
+
+   }
+   .thumbnail1:hover{
+        border-color: #F53838;
+   }
+   .thumbnail1:hover .selectbtn{
+             background-color: #F53838;
+            color: #FFFFFF;
+    }
+    .thumbnail1:hover .selectbtn #belowbut2{
+            position: absolute;
+            width: 8%;
+            height: 10%;
+            background: rgba(245, 56, 56, 0.35);
+            filter: blur(54px);
+            border-radius: 60px;
+    }
+ 
+    @media(max-width: 1019px){
+        .thumbnail1{float: none;}
+        .thumbnail{align-items: center;}
+    }
+ 
+.selectbtn{
+    font-size: 16px;
+    border: 2px solid #F53855;
+    color: #F53838;
+    border-radius: 50px; 
+    background-color: #FFFFFF;
+    padding: 13px 45px;
+}
+   
+#bt1{
+    border: none;
+    background: #F53838;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 1.8% 7%;
+    margin-top: 4%;
+}
+
+#bt2{
+    float: right;
+    border:none;
+    background: #F53838;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 4px -4px;
+    padding: 1.7% 6.1%;
+    transform: translateY(90%);
+    margin-right: 13%;
+}
+
+.footerlist{
+    margin-bottom: 10%;
+    color: #4F5665;
+    font-size: 16px;
+}
+.footerheadlist{
+    margin-bottom: 20%;
+    color:#0B132A;
+    font-size: 18px;
+}
+
+.caroblock{
+    display: inline-block;
+    background-color: #ffffff;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-bottom: 8%;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding:1%;
+    padding-bottom: 1%;
+    max-width: 100%;
+   }
+   .caroblock:hover{
+        border-color: #F53838;
+   }
+   
+#car1{
+     float:left;
+     width:15%; 
+     margin-top: 8%;
+}
+#car2{
+       float:left;
+       width:59%;
+       margin-left: 4%
+}
+#car3{
+    float:left; 
+    width:20%;
+    margin-top: 8%;
+}
+#namecont{
+    color:#4F5665; 
+    font-size: 12px; 
+    margin-top: -10%;
+}
+
+
+.carbutton{
+    float:left;
+    font-size: 20px;
+    width:70px;
+    height:70px;;
+    margin-top: 80px;
+    background-color: white;
+    border: 2px solid #F53838;
+    border-radius: 100px;
+    color: #F53838;
+    font-size: 200%;
+}
+.carbutton:hover{
+    background-color: #F53838;
+    color: #FFFFFF;
+}
+
+.carimg{
+    width: 80%;
+    height: 80%;
+}
+
+.carheadd{
+    font-size: 16px;
+    color: #0B132A;
+}
+
+
+#belowbut1{
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    margin-top: 4%;
+    left: 10%;
+    background: rgba(245, 56, 56, 0.35);
+    filter: blur(54px);
+    border-radius: 10px;
+}
+#belowbut3{
+    position: absolute;
+    width: 20%;
+    height:30%;
+    left: 65%;
+    background: rgba(245, 56, 56, 0.35);
+    filter: blur(54px);
+    border-radius: 10px;
+    transform: translateY(100px);
+}
+

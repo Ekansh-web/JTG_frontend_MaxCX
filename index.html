@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!--
+
+All the libraries are imported from Internet so the device 
+should have the Internet connection and 
+these libraries are used for the implementation of carousel 
+and the font style.
+carousel can work with the help of keyboard
+
+-->
+
+<html>
+    <head>
+         <link rel="icon" type="image/icon-type" href="img/Logo.PNG">
+        <title>MaxCX | HOME</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    <!-- for font -->  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    
+    <!-- for carousel -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
+    </head>
+    
+    
+    <body class="container1">
+        
+        <div class="above_part" >
+            
+ <!-- 1     Whole Navigation-->       
+          <div id ="header">
+              <a href="#" class="logo"><img style="width: 100%; height: 100%" src="img/Logo.PNG" alt="MaxCX"></a>
+                <nav>
+                    
+                    <button class="signupbtn"  style="margin-right: 3%"><b>Sign Up</b></button>
+                    <button class="signinbtn"><b>Sign In</b></button>
+                    
+                    <a class="navbuttons"  style="margin-right: 5%" href="#help">Help</a>
+                    <a class="navbuttons" href="#testimonials">Testimonials</a>
+                    <a class="navbuttons" href="#pricing">Pricing</a>
+                    <a class="navbuttons" href="#features">Features</a>
+                    <a class="navbuttons" href="#about">About</a>
+                    
+                </nav>
+          </div>
+ 
+<!-- 2     Features 1 -->        
+        <div style="overflow: auto; color:#4F5665; font-size:16px;">
+            <img style="float: right; width: 50%; height:50%;" src="img/Illustration.png" alt="illus"/>
+    
+            <h1 style="font-size: 50px; color: #0B132A">Want anything to be easy with <span style="color:#4F5665">Max</span>CX</h1>
+            <p>Provide an experience for all your customers' needs with ease and fun
+                with <b>MaxCX</b>. Discover interesting features from us.</p>
+            <button id="bt1"><span id="belowbut1"></span>Get Started</button>
+        </div>
+
+<!-- 3     Our Social Supports--> 
+    
+    <div class="ssmain">
+            
+            <div class="ratingsstyle">
+                <div class="ssimgdiv">
+                    <img class="ssimg" src="img/user.png" alt="user"/>
+                </div>
+                <div class="ssdiv2">
+                    <p class="ssp1"><b>90K+</b></p>
+                    <p class="ssp2">Satisfied Customers</p>
+                </div>
+            </div>
+            
+            <div class="ratingsstyle">    
+                <div class="ssimgdiv">
+                    <img style="float: left;" class="ssimg" src="img/location.png" alt="user"/>
+                </div>
+                <div class="ssdiv2">
+                    <p class="ssp1"><b>100K+</b></p>
+                    <p class="ssp2">Blooming Companies</p>
+                </div>
+            </div>
+            
+            <div style="float: left; width:20%;">
+                <div style="float:left; width:30%">
+                    <img style="float: left" class="ssimg" src="img/Server.png" alt="user"/>
+                </div>
+                <div class="ssdiv2">
+                    <p class="ssp1"><b>500K+</b></p>
+                    <p class="ssp2">Support Specialists</p>
+                </div>
+            </div>
+            
+        </div>
+        <span id="anotback"></span>
+
+<!-- 4 Features 2--> 
+        <div style="overflow: auto; margin-top: 32%; color:#4F5665; font-size:16px;">
+            <div style="float: left; width:50%; margin-left: 5%;margin-top: 3%;">
+            <img style="float: left; width: 80%; height:80%;" src="img/Illustration_2.png" alt="illus2"/>
+            </div>
+            <div style="float: left; width:30%; margin-left: 5%; margin-top: 4%">
+                <h2 style="font-size: 35px; color: #0B132A">We Provide Many Features You Can Use</h2>
+            <p>You can explore the features that we provide with fun and have
+            their own functions each feature</p>
+            <ul>
+                <li class="features2contlist">Managed Turn around limits</li>
+                <li class="features2contlist">Customized workflow</li>
+                <li class="features2contlist">Hooks for Manual steps</li>
+                <li class="features2contlist">Realtime updates and statistics</li>
+            </ul>
+            </div>
+        </div>
+
+<!-- 5   Thumbnails    --> 
+          <div style="overflow: auto;"> 
+              <center style="margin-top: 17%" class="all_headings"><h2>Choose Your Plan</h2>
+              <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p></center>
+              <div class="thumbnail">
+                <div class="thumbnail1">
+                    <center><img style="width: 40%;height: 40%" src="img/Free.png" alt="free">
+                    <h4 style="color: #0B132A;">Free Plan</h4></center>
+              
+                    <ul class="thumbnailul">
+                        <li class="features3contlist">10 Inbound leads/pm</li>
+                        <li class="features3contlist">10 workflow steps</li>
+                        <li class="features3contlist">Unlimited usage</li>
+                        <li class="features3contlist">Daily Stats & updates</li>
+                    </ul><br><br>
+                    <center style="margin-top: 50%"><h3>Free</h3>
+                        <button class="selectbtn">
+                        <span id="belowbut2"></span>Select</button>
+                    </center>
+                </div>
+        
+                <div class="thumbnail1">
+                    <center><img style="width: 40%;height: 40%"  src="img/Standard.png" alt="standard">
+                        <h4 style="color: #0B132A;">Standard Plan</h4></center>
+                        <ul class="thumbnailul">
+                            <li class="features3contlist">10k Inbound leads/pm</li>
+                            <li class="features3contlist">100 workflow steps</li>
+                            <li class="features3contlist">Unlimited usage</li>
+                            <li class="features3contlist">On demand Stats & updates</li>
+                            <li class="features3contlist">Workflow Customization</li>
+                        </ul><br>
+                    <center style="margin-top: 44%"><h3>$9/mo</h3>
+                        <button class="selectbtn">
+                        <span id="belowbut2"></span>Select</button></center>
+                </div>
+        
+                <div class="thumbnail1">
+                    <center><img style="width: 40%;height: 40%"  src="img/Premium.png" alt="premium">
+                        <h4  style="color: #0B132A;">Premium Plan</h4></center>
+                        <ul class="thumbnailul">
+                            <li class="features3contlist">Unlimited Inbound leads</li>
+                            <li class="features3contlist">Unlimited workflow steps</li>
+                            <li class="features3contlist">Unlimited usage</li>
+                            <li class="features3contlist">Realtime Stats and updates</li>
+                            <li class="features3contlist">Workflow Customization</li>
+                            <li class="features3contlist">Hooks for Manual steps</li>
+                           </ul>
+                    <center style="margin-top: 43%"><h3>$12/mo</h3>
+                        <button class="selectbtn"><span id="belowbut2"></span>Select
+                        </button></center>
+                </div>
+              </div>
+         </div>
+
+
+<!-- 6    Globe Map of World -->
+        <div>
+            <center style="margin-top: 12%" class="all_headings"><h2>Huge Global Network of Specialized Workforce</h2>
+                <p>See <b>MaxCX</b> everywhere to make it easier for you for your customers around the globe.</p></center>
+            <img style="width: 100%;height:100%; margin-top: 8%" src="img/HugeGlobal.png" alt="globe"/>
+            <img style="width: 100%; height: 100%" src="img/Sponsored.png" alt="sponsored"/>
+        </div>
+        </div>
+
+<!-- 7   Carausel Code-->
+        <div style="overflow:auto">
+            <div class="above_part">
+            <center style="margin-top: 5%" class="all_headings"><h2>Trusted by Thousands of Happy Customer</h2>
+                <p>These are the stories of our customers who have joined us with great
+                pleasure when using this crazy feature.</p></center>
+            <br><br>
+            </div>
+          <button class='carbutton leftbt' style="margin-left: 3%"><!--&#10094;-->&#8592;</button>
+          
+          <div class="above_part owl-carousel owl-theme" style="float: left">
+           
+            <div class="caroblock item" style="float:left;">
+                <div style="overflow: auto">
+                <div id="car1">
+                    <img class="carimg" src="img/Ellipse 175.png" alt="person1">
+                </div>
+                <div id="car2">
+                    <h5 class="carheadd">Viezh Robert</h5>
+                    <p id="namecont">Warsaw, Poland</p>
+                </div>
+                <div id="car3">
+                    <div style="float: left">
+                        <p>4.5</p>
+                    </div>
+                    <div  style="float: left; margin-left: 10%">
+                        <p> <img src="img/star.png" alt="star"></p>
+                    </div>
+                </div>
+                </div>
+                <p>"Wow... I am very happy to use this MaxCX service,
+                 it turned out to be more than my expectations and so far there
+                 have been no problems. MaxCX always the best."</p>
+            </div>
+            
+            <div class="caroblock item" style="float:left; padding-bottom: 5%">
+                <div style="overflow:auto">
+                <div id="car1">
+                    <img class="carimg" src="img/Ellipse 175 (1).png" alt="person1">
+                </div>
+                <div id="car2">
+                    <h5 class="carheadd">Yessica Christy</h5>
+                    <p id="namecont">Shanxi, China</p>
+                </div>
+                <div id="car3">
+                    <div style="float: left">
+                        <p>4.5</p>
+                    </div>
+                    <div  style="float: left; margin-left: 10%">
+                        <p> <img src="img/star.png" alt="star"></p>
+                    </div>
+                </div>
+                </div>
+                <p>"I like it because I've my userbase around the globe and MaxCX just
+                    makes it a lot easier for me removing all the inter-continent barriers."</p>
+            </div>
+            
+            <div class="caroblock item" style="float:left; padding-bottom: 5%">
+                <div style="overflow:auto">
+                <div id="car1">
+                    <img class="carimg" src="img/Ellipse 175 (2).png" alt="person1">
+                </div>
+                <div id="car2">
+                    <h5 class="carheadd">Kim Young Jou</h5>
+                    <p id="namecont">Seoul, South Korea</p>
+                </div>
+                <div id="car3">
+                    <div style="float: left">
+                        <p>4.5</p>
+                    </div>
+                    <div  style="float: left; margin-left: 10%">
+                        <p> <img src="img/star.png" alt="star"></p>
+                    </div>
+                </div>
+                </div>
+                <p>"This is very unusual for my business that currently requires
+                    a partner that keeps my data at the highest possible security."</p>
+           
+            </div>
+              
+              <div class="caroblock item" style="float:left; padding-bottom: 5%">
+                <div style="overflow:auto">
+                <div id="car1">
+                    <img class="carimg" src="img/daco.png" alt="person1">
+                </div>
+                <div id="car2">
+                    <h5 class="carheadd">Pratham Pandey</h5>
+                    <p id="namecont">Lucknow, India</p>
+                </div>
+                <div id="car3">
+                    <div style="float: left">
+                        <p>4.5</p>
+                    </div>
+                    <div  style="float: left; margin-left: 10%">
+                        <p> <img src="img/star.png" alt="star"></p>
+                    </div>
+                </div>
+                </div>
+                <p>"MaxCX always the best. This is very unusual for my business that currently requires
+                    a partner that keeps my data at the highest possible security."</p>
+           
+            </div>
+          </div>
+            <button class='carbutton rightbt'><!--&#10095;-->&#8594;</button>
+           
+        </div>
+    <div class="above_part">
+        
+<!-- 8    Subscribe area --> 
+        <div class='templ'>
+            <div style="float:left; margin-left: 5%"> 
+             <h2> Subscribe Now & get<br> Special Features!</h2>
+                <p>Let's subscribe with us and find the fun.</p>
+            </div>
+               <input type="submit" value="Subscribe Now" id="bt2"><span id="belowbut3"></span>
+        </div>
+
+    </div>
+
+        
+        
+ <!-- 9   footer -->
+      <footer style="background-color: #F8F8F8; overflow: auto; margin-top: 19%; padding-top:100px; padding-bottom: 100px;">
+          
+          <div class="above_part" style="background-color: #F8F8F8;">
+              <div style="margin-top: 7%">
+             <div style="float:left; width:40%;">
+                <img style="width: 30%; height: 12%" src="img/Logo.png" alt="logo"/>
+                <p style="color: #4F5665; font-size: 16px;"><b>MaxCX</b> is a private virtual network that has<br> 
+                    unique features and has high security.</p>
+                <div style="overflow:auto">
+                <img style="float: left" src="img/Facebook.png" alt="fb"/>
+                <img style="float: left" src="img/Twitter.png" alt="twit"/>
+                <img style="float: left;" src="img/Instagram.png" alt="insta"/>
+                </div>
+                <div>
+                <img src="img/11Max.png" alt="copyright"/>
+                </div>
+             </div>
+  
+             <div style="float:left; width:20%">
+                 <ul style="list-style-type: none;">
+                     <li class="footerheadlist"><b>Product</b></li>
+                     <li class="footerlist">Download</li>
+                     <li class="footerlist">Pricing</li>
+                     <li class="footerlist">Locations</li>
+                     <li class="footerlist">Services</li>
+                     <li class="footerlist">Countries</li>
+                     <li class="footerlist">Blog</li>
+                 </ul>
+             </div>
+             <div style="float:left; width:20%">
+                <ul style="list-style-type: none;">
+                    <li class="footerheadlist"><b>Engage</b></li>
+                    <li class="footerlist">MaxCX ?</li>
+                    <li class="footerlist">FAQ</li>
+                    <li class="footerlist">Explore</li>
+                    <li class="footerlist">About Us</li>
+                    <li class="footerlist">Privacy Policy</li>
+                    <li class="footerlist">Terms of Service</li>
+                 </ul>
+             </div>
+             <div style="float:left; width:20%;">
+                <ul style="list-style-type: none;">
+                    <li class="footerheadlist"><b>Earn Money</b></li>
+                    <li class="footerlist">Affiliate</li>
+                    <li class="footerlist">Become Partner</li>
+                 </ul>
+             </div>
+           </div>
+        </div>
+      </footer>
+ 
+ 
+ <script>
+     
+     //jquery for carousel with the help of external library
+     
+     $(document).ready(function(){
+         
+         $('.owl-carousel').owlCarousel({
+             items:3,
+            loop:true,
+            dots:false,
+        })
+        var owl = $('.owl-carousel');
+             owl.owlCarousel();
+             $('.leftbt').click(function(){
+                 owl.trigger('next.owl.carousel');
+             })
+             $('.rightbt').click(function(){
+                 owl.trigger('prev.owl.carousel');
+             })
+     // to use keyboard side buttons for sliding
+     $(document).keydown(function(e){
+         if(e.keyCode == 37){owl.trigger('next.owl.carousel');}
+         else if(e.keyCode == 39){owl.trigger('prev.owl.carousel');}
+     })
+        })
+     </script>
+ 
+    </body>
+</html>
